@@ -1,0 +1,7 @@
+Flask==3.1.0
+numpy==2.2.3
+seqeval==0.0.12
+# torch==2.6.0+cu118
+tqdm==4.67.1
+transformers==4.49.0
+scikit-learn==1.6.1
