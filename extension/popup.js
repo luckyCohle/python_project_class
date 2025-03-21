@@ -57,13 +57,7 @@
          // Check if file is a PDF
          if (file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf')) {
              console.log('PDF file selected:', file.name);
-             
-             // You could add code here to:
-             // 1. Read the file using FileReader
-             // 2. Send the file to a backend service
-             // 3. Process the PDF with pdf.js or similar library
-             
-             // Show filename in the UI
+            //api call yahan dallna hai
              document.querySelector('#img-view p').textContent = `Selected: ${file.name}`;
          } else {
              alert('Please select a PDF file');
