@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeFillAssist</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h4>Hello! Welcome to ResumeFillAssist,
+        Provide your Resume and we will help you fill your application form
+    </h4>
+    <br>
+    <textarea placeholder="paste your resume text here"></textarea>
+    <h3>OR</h3>
+    <label for="input-file" id="drop-area">
+        <input type="file" accept=".pdf" id="input-file" hidden>
+        <div id="img-view">
+            <img src="upload.png" height="100px" alt="Upload icon">
+            <p>Drag and drop or click here<br>to upload a resume pdf</p>
+        </div>
+    </label>
+    
+    <script src="popup.js" type="module"></script>
+</body>
+</html>

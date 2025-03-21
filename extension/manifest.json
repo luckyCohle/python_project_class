@@ -1,0 +1,24 @@
+{
+    "name": "ResumeFormAssist",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service-worker": "background.js",
+        "type": "module"
+    },
+    "permissions": ["scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["popup.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
